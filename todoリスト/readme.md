@@ -13,3 +13,5 @@
 ,を.にして書いてた。
 
 
+### githubにpushして公開。
+https://hirotalts.github.io/js_programming/todo%E3%83%AA%E3%82%B9%E3%83%88/
