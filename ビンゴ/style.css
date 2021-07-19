@@ -1,0 +1,68 @@
+#message {
+  color: #333333;
+}
+
+div {
+  float: left;
+}
+
+#card div {
+  width: 80px;
+}
+
+.masu {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+  width: 76px !important;
+  height: 80px;
+  border: 2px solid #cc3333;
+}
+
+.free {
+  font-size: 24px !important;
+  color: #ffffff;
+  background: #cc3333;
+}
+
+.hit {
+  color: #cc3333;
+  background: #ffffcc !important;
+}
+
+#numbers {
+  margin-left: 20px;
+}
+
+#number {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  width: 148px;
+  height: 100px;
+  background: #ffffcc;
+  border: 1px solid #FFCC99;
+}
+
+#next {
+  width: 150px;
+}
+
+#list {
+  width: 150px;
+  margin-top: 10px;
+}
+
+#list div {
+  width: 20px;
+  padding: 4px;
+  text-align: center;
+  background: #99ccff;
+  border: 1px solid #ffcc99;
+}
+
+br {
+  clear: both;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ビンゴ</title>
+  <script src="./js/add.js" charaset="utf-8"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="init()">
+  <p>ビンゴ</p>
+  <input type="button" value="はじめから" onclick="init()">
+  <span id="message"></span>
+  <hr>
+  <div id="card"></div>
+  <div id="numbers">
+    <div id="number"></div><br>
+    <input type="button" id="next" value="次の数字" onclick="showNumber()"><br>
+    <div id="list"></div>
+  </div>
+</body>
+
+</html>
