@@ -1,4 +1,2 @@
 .DS_Store
 .vscode
-
-git config --global core.quotepath false
