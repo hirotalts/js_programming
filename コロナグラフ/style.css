@@ -1,0 +1,14 @@
+#scroll {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  font-size: small;
+  text-align: center;
+  border: thin solid #000;
+}

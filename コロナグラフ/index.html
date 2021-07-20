@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新型コロナウイルス感染症データ</title>
+  <script src="./js/add.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+  <p>新型コロナウイルス感染症データ</p>
+  <a href="https://www.mhlw.go.jp/content/pcr_positive_daily.csv">陽性者数</a>
+  <a href="https://www.mhlw.go.jp/content/pcr_tested_daily.csv">PCR検査実施人数</a>
+  <a href="https://www.mhlw.go.jp/content/cases_total.csv">入院治療者数</a>
+  <a href="https://www.mhlw.go.jp/content/recovery_total.csv">退院又は療養解除者数</a>
+  <a href="https://www.mhlw.go.jp/content/death_total.csv">死亡者数</a>
+  <hr>
+  <input type="file" multiple accept=".csv" onchange="loadData(this.files)">
+  <hr>
+  <div id="guide"></div>
+  <canvas id="graph" width="1800" height="400"></canvas>
+  <hr>
+  <div id="scroll">
+    <table id="dataTable"></table>
+  </div>
+</body>
+
+</html>
